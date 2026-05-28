@@ -1,32 +1,33 @@
-# SEO Guidelines for Castos Content
+# SEO Guidelines for DOMI Sensor Content
 
-This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.
+This document outlines SEO best practices and requirements for all DOMI Sensor blog content to maximize organic search visibility and rankings.
 
 ## Content Length Requirements
 
 ### Target Word Counts
-- **Standard Blog Post**: 1,500-3,000 words (target: 2,000-2,500)
-- **Pillar Content / Comprehensive Guides**: 3,000-5,000 words maximum
-- **How-To Guides**: 1,500-2,500 words
-- **News / Updates**: 800-1,200 words (exception to standard)
+- **Standard Blog Post**: 1,200-2,500 words (target: 1,500-2,000)
+- **Pillar Content / Comprehensive Guides**: 2,500-4,000 words maximum
+- **How-To / Integration Guides**: 1,000-2,000 words
+- **News / Product Announcements**: 500-1,000 words
 
 ### Important Length Guidelines
-- **Maximum for most articles**: 3,000 words
-- **Maximum for pillar content**: 5,000 words
+- **Maximum for most articles**: 2,500 words
+- **Maximum for pillar content**: 4,000 words
+- Engineer audiences value density over length—every paragraph must earn its place
 - If a topic requires more than the maximum, break it into a series of related articles
-- Aim for the lower end of ranges when possible—concise, focused content often performs better
+- Spec tables, comparison charts, and code examples add length while adding real value
 
 ### Why Length Matters
-- Longer content typically ranks higher in search results
-- More words = more opportunities for keyword integration and topic coverage
-- Comprehensive content earns more backlinks and engagement
-- Depth signals expertise and authority to search engines
+- Comprehensive technical content ranks higher in search results
+- More depth = more keyword integration and topic coverage
+- Original technical data and comparisons earn backlinks and engagement
+- Depth signals expertise and authority in technical domains
 
 ### Quality Over Quantity
 - Don't add fluff just to hit word counts
-- Every section should provide genuine value
-- Better to have 2,000 valuable words than 3,000 padded words
-- **Stay within the maximum word counts**—overly long articles hurt user experience
+- Every section should provide genuine technical value
+- A 1,200-word spec-driven comparison often outperforms a 2,500-word general article
+- **Stay within the maximum word counts**—engineers have limited time and low tolerance for padding
 
 ## Keyword Optimization
 
@@ -58,16 +59,16 @@ Primary keyword MUST appear in:
 ### Keyword Integration Best Practices
 - **Natural language first**: Write for humans, optimize for search engines
 - **Use variations**: Don't repeat exact phrase robotically
-  - Example: "podcast hosting" → "hosting your podcast" → "podcast host"
+  - Example: "ToF sensor" → "time-of-flight module" → "depth sensing component"
 - **Question formats**: Include conversational variations
-  - "How to start a podcast" vs "starting a podcast"
+  - "How to choose a ToF sensor" vs "ToF sensor selection guide"
 - **Semantic keywords**: Use related terms to support topical authority
-  - For "podcast editing": include "audio editing", "post-production", "editing workflow"
+  - For "VCSEL": include "laser emitter", "illumination source", "vertical cavity laser"
 
 ### Keyword Stuffing (Avoid)
-❌ "Podcast hosting is important. Podcast hosting helps podcasters. Our podcast hosting platform offers podcast hosting services for podcast hosting needs."
+❌ "ToF sensors are important. ToF sensor technology helps engineers. Our ToF sensor solutions offer ToF sensor capabilities for ToF sensing needs."
 
-✅ "Podcast hosting is important for creators who want to distribute their show to major platforms. A reliable host ensures your episodes are accessible wherever listeners discover new content."
+✅ "Time-of-Flight sensors enable precise depth measurement across robotics, drone, and IoT applications. A well-chosen ToF module delivers reliable ranging even in challenging lighting conditions."
 
 ## Content Structure Requirements
 
@@ -136,23 +137,23 @@ Primary keyword MUST appear in:
 
 ### Meta Title
 **Requirements**:
-- **Length**: 50-60 characters (including "| Castos" if used)
+- **Length**: 50-60 characters
 - **Primary keyword**: Must be included
 - **Compelling**: Should encourage clicks from SERP
-- **Unique**: Different from all other Castos page titles
+- **Unique**: Different from all other DOMI page titles
 - **Accurate**: Must match page content
 
 **Format Options**:
-- `[Primary Keyword]: [Benefit/Promise]`
-- `How to [Goal] | [Qualifier]`
-- `[Number] Ways to [Achieve Benefit]`
-- `[Topic] Guide for [Audience] | Castos`
+- `[Product/Spec]: [Key Benefit/Differentiator]`
+- `How to [Goal] | [Application/Industry]`
+- `[Number] [Topic] for [Audience]`
+- `[Topic] Guide for [Application] | DOMI Sensor`
 
 **Examples**:
-- ✅ "How to Start a Podcast in 2025: Complete Guide"
-- ✅ "12 Proven Podcast Growth Strategies | Castos"
-- ❌ "Podcast Tips and Tricks" (too vague, no keyword)
-- ❌ "The Ultimate Comprehensive Guide to Everything About Starting Your First Podcast Successfully" (too long)
+- ✅ "VL53L4CD Replacement: DM0301 ToF Sensor — Longer Range, Lower Cost"
+- ✅ "How to Choose a ToF Sensor for Robotics | Complete Guide"
+- ❌ "Sensor Tips and Tricks" (too vague, no keyword)
+- ❌ "The Ultimate Comprehensive Guide to Everything About Time of Flight Sensor Technology" (too long)
 
 ### Meta Description
 **Requirements**:
@@ -169,9 +170,9 @@ Primary keyword MUST appear in:
 ```
 
 **Examples**:
-- ✅ "Learn how to start a podcast with our step-by-step guide. Everything from equipment to launch strategy. Perfect for beginners. Start your show today." (159 chars)
-- ✅ "Discover 12 proven podcast growth strategies that top creators use. Increase downloads, engagement, and audience loyalty. Actionable tips inside." (155 chars)
-- ❌ "This is a blog post about podcasting where we discuss many podcast-related topics." (vague, no value prop, no CTA)
+- ✅ "Learn how the DM0301 ToF sensor replaces VL53L4CD with 3.8× longer range and lower BOM cost. Pin-to-pin compatible, no redesign needed." (158 chars)
+- ✅ "Compare dToF vs iToF sensor technology for your robotics, drone, or IoT application. Understand range, accuracy, and sunlight performance trade-offs." (157 chars)
+- ❌ "This is a blog post about sensors where we discuss many sensor-related topics." (vague, no value prop, no CTA)
 
 ### URL Slug
 **Requirements**:
@@ -184,10 +185,10 @@ Primary keyword MUST appear in:
 **Format**: `/blog/[primary-keyword-phrase]`
 
 **Examples**:
-- ✅ `/blog/start-podcast-guide`
-- ✅ `/blog/podcast-growth-strategies`
-- ✅ `/blog/podcast-editing-software`
-- ❌ `/blog/how-to-start-a-podcast-in-2025-the-complete-guide` (too long)
+- ✅ `/blog/vl53l4cd-replacement-dm0301-tof-sensor`
+- ✅ `/blog/dtof-vs-itof-comparison`
+- ✅ `/blog/best-tof-sensor-robotics`
+- ❌ `/blog/how-to-choose-the-best-time-of-flight-sensor-for-your-robotics-application` (too long)
 - ❌ `/blog/post-12345` (no keywords)
 
 ## Internal Linking Strategy
@@ -211,19 +212,19 @@ Primary keyword MUST appear in:
 
 #### 3. Product/Feature Pages (0-1 link)
 - Only when contextually relevant
-- Natural mention of how Castos solves problem
+- Natural mention of how DOMI Sensor solves problem
 - Never forced or overly promotional
 
 #### 4. Resource Pages (0-1 link)
-- Templates, tools, checklists
+- Datasheets, SDK documentation, integration guides
 - When mentioned as solutions in content
 - Provides additional value to reader
 
 ### Internal Linking Best Practices
 
 **Anchor Text**:
-- ✅ Descriptive and keyword-rich: "our complete guide to podcast analytics"
-- ✅ Natural in sentence flow: "Learn more about podcast SEO strategies"
+- ✅ Descriptive and keyword-rich: "DM0301 1D ToF sensor for presence detection"
+- ✅ Natural in sentence flow: "Explore the full ToF camera lineup"
 - ❌ Generic: "click here" or "read more"
 - ❌ Exact match repeatedly: Always using same anchor text for same page
 
@@ -243,20 +244,20 @@ Primary keyword MUST appear in:
 ### Requirements
 - **Minimum**: 2 external links per article
 - **Optimal**: 3-4 external authority links
-- Purpose: Add credibility, provide sources, support claims
+- Purpose: Add credibility, provide sources, support technical claims
 
 ### What to Link Externally
-- **Statistics and data sources**: Always cite where numbers come from
-- **Research and studies**: Link to original research
-- **Tools and resources**: When recommending specific tools
-- **Industry authorities**: Expert opinions or industry publications
+- **Datasheets and specifications**: Link to competitor datasheets when making fair comparisons
+- **Research and standards**: Reference IEC 60825 laser safety standards, industry benchmarks
+- **Tools and platforms**: ROS documentation, sensor evaluation platforms
+- **Industry authorities**: IEEE papers, photonics publications, sensor research
 
 ### External Link Quality Standards
 - **Authority**: Link to credible, well-known sources
-  - ✅ Industry publications (Podcast Host, Podnews, etc.)
-  - ✅ Research institutions and studies
-  - ✅ Established media outlets
-  - ❌ Random blogs with no authority
+  - ✅ Competitor datasheets (ST, AMS, Sony) for honest comparisons
+  - ✅ Industry publications (IEEE Spectrum, Photonics Spectra, Electronic Design)
+  - ✅ Research institutions and sensor technology studies
+  - ❌ Random blogs with no technical authority
   - ❌ Spammy or low-quality sites
 
 - **Relevance**: Links must directly support content claims
@@ -307,23 +308,22 @@ Use transition words to improve flow (target: one per paragraph):
 ### Expertise, Authoritativeness, Trustworthiness (E-A-T)
 
 #### Expertise
-- Provide accurate, detailed information on podcasting topics
-- Back claims with data and examples
-- Demonstrate deep understanding of podcast creator needs
-- Include actionable, practical advice
+- Provide accurate, detailed information on ToF sensing and 3D depth technology
+- Back technical claims with specifications, measurements, and test data
+- Demonstrate deep understanding of sensor integration challenges
+- Include actionable, practical advice for hardware and embedded engineers
 
 #### Authoritativeness
-- Cite credible sources
-- Reference industry data and trends
-- Include expert quotes when relevant
-- Leverage Castos's position as hosting platform
+- Cite competitor datasheets and industry standards fairly
+- Reference peer-reviewed research and industry benchmarks
+- Include engineering team credentials and domain expertise
+- Leverage DOMI's position as a vertically integrated sensor manufacturer
 
 #### Trustworthiness
-- Be transparent and honest
-- Acknowledge limitations or challenges
-- Don't overpromise results
-- Cite sources for all statistics and claims
-- Update outdated content regularly
+- Be transparent and honest about product limitations
+- Acknowledge when a competitor's product is the better choice for specific use cases
+- Cite sources for all specifications and third-party claims
+- Update outdated content with current specs and product information
 
 ### Content Originality
 - **Never plagiarize**: All content must be original
@@ -375,9 +375,9 @@ Featured snippets appear at position 0 in Google search results. Optimize for th
 
 **Example**:
 ```markdown
-## What is Podcast Hosting?
+## What is a ToF Sensor?
 
-Podcast hosting is a service that stores your audio files and generates an RSS feed that distributes your episodes to podcast platforms like Apple Podcasts, Spotify, and Google Podcasts. Without a host, listeners can't discover or access your show on their favorite apps.
+A Time-of-Flight (ToF) sensor measures distance by emitting a laser pulse and calculating the time it takes for the light to reflect back from an object. Unlike traditional cameras that capture color images, ToF sensors produce depth maps—precise 3D measurements of how far every point in the scene is from the sensor.
 ```
 
 ### List-Based Snippets
@@ -406,24 +406,24 @@ Podcast hosting is a service that stores your audio files and generates an RSS f
 
 ## AI Search Optimization (GEO/AICO)
 
-AI search engines (ChatGPT, Perplexity, Gemini, Claude) are now a significant traffic and recommendation channel. 5-15% of website traffic can come from AI sources, and 90% of buyers consult AI before purchase decisions. These guidelines ensure your content performs in both traditional Google search AND AI-generated answers.
+AI search engines (ChatGPT, Perplexity, Gemini, Claude) are now a significant traffic and recommendation channel for technical purchasing decisions. Engineers increasingly use AI tools to research components, compare sensors, and evaluate suppliers. These guidelines ensure your content performs in both traditional Google search AND AI-generated answers.
 
 ### Direct-Answer-First Principle
 
-AI scrapers prioritize content near the top of the page. When a user asks ChatGPT "best project management tool" or "how to start a podcast," the AI scans articles and pulls from the earliest clear answer it finds.
+AI scrapers prioritize content near the top of the page. When an engineer asks "best ToF sensor for robotics" or "VL53L4CD alternative," the AI scans articles and pulls from the earliest clear answer it finds.
 
 **Rules:**
-- **Answer the query directly in the first 1-2 sentences** of the article, before the narrative hook or story
-- For "best/top/how" queries, state the answer (or a clear thesis) immediately
+- **Answer the query directly in the first 1-2 sentences** of the article, before narrative context
+- For "best/top/comparison" queries, state the answer (or a clear thesis) immediately
 - Put the core answer in the meta description too — literally answer the question in 150-160 chars
-- Do NOT bury the answer behind 200+ words of context, history, or definitions
-- The narrative hook and APP formula still apply, but they come AFTER the direct answer sentence
+- Do NOT bury the answer behind 200+ words of market context or technology history
+- The narrative context and technical depth still apply, but they come AFTER the direct answer sentence
 
 **Example — Before (traditional SEO):**
-> Most businesses struggle with choosing the right platform. In today's crowded market... [200 words later] ...the best option is X because...
+> The 3D depth sensing market has grown significantly in recent years, driven by demand from robotics, drones, and smart home applications. Many companies need reliable sensors... [200 words later] ...the DM0301 is the best VL53L4CD alternative because...
 
 **Example — After (AI-optimized):**
-> The best project management tools in 2026 are Asana, Monday, and ClickUp — each optimized for different team sizes and workflows. Here's what separates them. [Then hook, story, depth]
+> The best VL53L4CD replacement is the DOMI DM0301 — a pin-to-pin compatible 1D ToF sensor with 3.8× longer range (5m vs 1.3m) and 100k lux sunlight immunity, at a lower cost. Here's the full comparison.
 
 ### TL;DR / Key Takeaways Block
 
@@ -581,7 +581,7 @@ Before publishing, verify:
 
 ### Recommended Tools
 - **Keyword Research**: Ahrefs, SEMrush, Google Keyword Planner
-- **Content Analysis**: Clearscope, Surfer SEO, MarketMuse
+- **Content Analysis**: Clearscope, Surfer SEO
 - **Readability**: Hemingway Editor, Grammarly
 - **Technical SEO**: Screaming Frog, Google Search Console
 - **Rank Tracking**: Ahrefs, SEMrush, Google Search Console
@@ -589,10 +589,9 @@ Before publishing, verify:
 ### Reference Resources
 - Google's Search Quality Evaluator Guidelines
 - Moz Beginner's Guide to SEO
-- Backlinko Blog (Brian Dean)
 - Search Engine Journal
 - Ahrefs Blog
 
 ---
 
-**Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps your audience succeed.
+**Remember**: SEO serves the engineer evaluating your sensor, not the algorithm. Never sacrifice technical accuracy or honest assessment for keyword optimization. The best SEO for DOMI is precise, specific content that helps engineers make informed component decisions.

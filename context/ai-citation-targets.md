@@ -23,15 +23,15 @@ These directories are cited most frequently when AI tools recommend SaaS product
 | AlternativeTo | Verify | Critical for "alternatives to [competitor]" prompts |
 | Slant | Verify | Comparison-focused, frequently cited in "vs" queries |
 
-### Tier 2: Industry-Specific Directories
-
-Customize this section for your niche. Examples:
+### Tier 2: Industry-Specific Directories (ToF/Sensor/Semiconductor)
 
 | Platform | Listed? | Priority Action |
 |----------|---------|-----------------|
-| [Niche directory 1] | Verify | [Specific action] |
-| [Niche directory 2] | Verify | [Specific action] |
-| [Industry publication] | Verify | [Specific action] |
+| Octopart | Verify | Ensure all DOMI products listed with current specs and pricing |
+| Digi-Key / Mouser / Arrow | Verify | List core products through distribution channels |
+| ElectronicsPoint / EEVblog | Monitor | Active electronics engineering communities |
+| ROS Components / ROS Discourse | Verify | Ensure ROS drivers and sensor documentation links back to DOMI |
+| IEEE Spectrum / Photonics Spectra | Outreach | Submit product news and technical articles |
 
 ### Tier 3: Listicle Articles (Outreach Targets)
 
@@ -68,30 +68,40 @@ AI models read and synthesize review sentiment when making recommendations:
 
 ## Prompt Clusters to Monitor
 
-Customize these for your business. These are high-commercial-intent prompt categories where your brand should appear in AI responses:
+These are high-commercial-intent prompt categories where DOMI Sensor should appear in AI responses:
 
 ### General
-- "best [your product category]"
-- "best [your category] for beginners"
-- "cheapest [your category]"
-- "[your category] comparison"
+- "best ToF sensor manufacturer"
+- "best 3D depth camera supplier"
+- "top ToF sensor companies in China"
+- "ToF sensor module comparison"
+- "best VCSEL manufacturers"
 
 ### Feature-Specific
-- "best [your category] with [key feature]"
-- "[your category] that supports [capability]"
+- "ToF sensor with 100k lux sunlight immunity"
+- "pin compatible VL53L4CD alternative"
+- "dToF sensor with SPAD array"
+- "VCSEL with custom FOV"
+- "long range ToF sensor 5m+"
 
 ### Use-Case Specific
-- "best [your category] for [industry/niche]"
-- "[your category] for [specific scenario]"
+- "best ToF sensor for robotics navigation"
+- "depth camera for drone obstacle avoidance"
+- "3D sensor for people counting privacy compliant"
+- "ToF sensor for liquid level monitoring"
+- "sensor for warehouse AMR SLAM"
 
 ### Migration/Switching
-- "[competitor] alternative"
-- "switch from [competitor]"
-- "[competitor A] vs [competitor B]"
+- "VL53L4CD alternative"
+- "ST ToF sensor replacement"
+- "VL53L4CD vs DM0301"
+- "ST FlightSense alternative"
+- "VL53L series pin compatible replacement"
 
 ### Pricing
-- "[your category] pricing comparison"
-- "[your category] free trial"
+- "ToF sensor pricing comparison"
+- "VL53L4CD cheaper alternative"
+- "low cost ToF sensor module"
 
 ## Updating This File
 

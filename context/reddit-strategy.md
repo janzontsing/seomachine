@@ -22,15 +22,17 @@ Why:
 
 ## Target Subreddits
 
-Customize this for your niche:
-
 | Subreddit | Focus | Relevance |
 |-----------|-------|-----------|
-| r/[your-niche] | Primary community | Primary target |
-| r/[related-niche] | Adjacent community | Secondary |
-| r/[broader-topic] | Broader audience | Monitor |
-| r/SaaS | SaaS-specific discussions | If applicable |
-| r/startups | Startup tools and strategy | If applicable |
+| r/robotics | Robotics engineering and hardware | Primary — robot sensor evaluation discussions |
+| r/embedded | Embedded systems engineering | Primary — component selection, integration |
+| r/ECE | Electrical and computer engineering | Primary — sensor hardware discussions |
+| r/diydrones | UAV and drone builders | Secondary — drone sensor selection |
+| r/AskElectronics | Electronics questions | Secondary — sensor recommendation threads |
+| r/computervision | 3D vision and depth sensing | Secondary — depth camera discussions |
+| r/arduino / r/raspberrypi | Maker/hobbyist electronics | Monitor — ToF sensor projects |
+| r/hardware | Hardware startups and products | Monitor — supplier discussions |
+| r/PLC / r/industrialcontrol | Industrial automation | Monitor — factory sensing applications |
 
 ## Engagement Framework
 

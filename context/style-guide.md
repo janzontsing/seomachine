@@ -1,9 +1,9 @@
-# Castos Style Guide
+# DOMI Sensor Style Guide
 
-This guide defines writing conventions, formatting standards, and editorial guidelines for all Castos content.
+This guide defines writing conventions, formatting standards, and editorial guidelines for all DOMI Sensor content.
 
 ## Instructions
-Fill in this template with Castos-specific style preferences. Update as the style guide evolves.
+Reference this guide when writing or editing any DOMI content. Update as the style evolves.
 
 ---
 
@@ -12,20 +12,25 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 ### Capitalization
 
 **Headlines & Subheadings**:
-- [ ] Title Case (Capitalize Major Words)
-- [ ] Sentence case (Only capitalize first word)
-- **Decision**: [Choose one and document here]
+- Use Title Case for all headlines and H2/H3 subheadings
+- Capitalize all major words (nouns, verbs, adjectives, adverbs)
+- Keep prepositions and articles lowercase unless first/last word
+- Example: "How ToF Sensors Enable Autonomous Robot Navigation"
 
 **Product Names**:
-- Castos: [Always capitalized]
-- Seriously Simple Podcasting: [Capitalization style]
-- [Other Castos products]: [Style]
+- DOMI Sensor: "DOMI" for casual reference, "DOMI Sensor" formally
+- Product model numbers: Exactly as specified (DM0301, DMAS2M001, DMP300KP, etc.)
+- "dToF" / "iToF": Always lowercase "d" and "i", capital "T" and "F" (direct/indirect Time-of-Flight)
+- "Time-of-Flight" when spelled out (hyphenated)
 
 **Industry Terms**:
-- podcast / Podcast: [Choose one]
-- podcaster / Podcaster: [Choose one]
-- RSS / rss: [RSS (always caps)]
-- [Add other common terms]
+- ToF: Always "ToF" when abbreviated, never "TOF" or "tof"
+- VCSEL: Always all-caps (Vertical Cavity Surface Emitting Laser)
+- SPAD: Always all-caps (Single Photon Avalanche Diode)
+- LiDAR: "LiDAR" (Light Detection and Ranging)
+- SD-K: "SDK" not "sdk" or "Sdk"
+- ROS: Always all-caps (Robot Operating System)
+- FoV: "FoV" or "field of view" when spelled out
 
 ### Numbers
 
@@ -46,9 +51,8 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 ### Punctuation
 
 **Oxford Comma**:
-- [ ] Yes (A, B, and C)
-- [ ] No (A, B and C)
-- **Decision**: [Choose and document]
+- Use Oxford comma: "range, accuracy, and sunlight immunity" (not "range, accuracy and sunlight immunity")
+- Reduces ambiguity in technical writing
 
 **Em Dashes**:
 - Style: — (em dash, no spaces) or - - (hyphens with spaces)
@@ -56,8 +60,9 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 - Example: "Podcast analytics—when used correctly—drive better content decisions."
 
 **Quotation Marks**:
-- "Straight quotes" or "Curly quotes"?
-- **Decision**: [Choose one]
+- "Straight quotes" for all content
+- Use double quotes ("") for direct speech and quotations
+- Use single quotes ('') for terms being defined or used in an unusual sense
 
 **Ellipses**:
 - Three dots: ...
@@ -68,15 +73,23 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 
 **First Use**:
 - Spell out on first use, acronym in parentheses
-- Example: "Really Simple Syndication (RSS) feeds distribute..."
-- Exceptions for universally known: SEO, URL, CTA
+- Example: "Time-of-Flight (ToF) sensors measure distance by..."
+- Exceptions for universally known in technical audience: LED, USB, API, SDK, PCB, BOM
+- Re-spell out in very long articles if term hasn't appeared in 1,000+ words
 
-**Common Podcasting Acronyms**:
-- RSS: Really Simple Syndication
-- DAI: Dynamic Ad Insertion
-- SEO: Search Engine Optimization
-- IAB: Interactive Advertising Bureau
-- [Add others as needed]
+**Common ToF/Semiconductor Acronyms**:
+- ToF: Time-of-Flight
+- dToF: direct Time-of-Flight
+- iToF: indirect Time-of-Flight
+- VCSEL: Vertical Cavity Surface Emitting Laser
+- SPAD: Single Photon Avalanche Diode
+- LiDAR: Light Detection and Ranging
+- FoV: Field of View
+- FPS: Frames Per Second
+- MIPI: Mobile Industry Processor Interface
+- LGA: Land Grid Array
+- BOM: Bill of Materials
+- DWS: Dimensioning, Weighing, Scanning
 
 **Latin Abbreviations**:
 - e.g. (for example): [Use or avoid?]
@@ -91,22 +104,25 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 ### Preferred Terms
 
 **Say This** → **Not That**:
-- podcast creators → podcasters
-- podcast hosting → podcast storage
-- listeners → subscribers
-- audio quality → sound quality
-- show notes → episode notes / shownotes
-- podcast episode → podcast show (episode is unit, show is series)
-- analytics → stats
-- monetize → monetise (US spelling)
-- [Add Castos-specific preferences]
+- time-of-flight sensor → TOF sensor (always hyphenate "time-of-flight" when spelled out)
+- ranging sensor → distance sensor (ranging is the industry-standard term)
+- depth sensing → 3D imaging (depth is more precise)
+- module → component (when referring to integrated assemblies)
+- datasheet specifications → specs (both acceptable, be consistent per article)
+- evaluation kit → dev kit (use "evaluation kit" formally, "eval kit" acceptable informally)
+- field of view (FoV) → viewing angle
+- ambient light immunity → works in bright light (use proper terminology)
+- integration → installation (integration is the engineering term)
+- accuracy → precision (they mean different things; use correctly)
 
 ### Words to Avoid
-- Avoid jargon without explanation
-- Avoid "very", "really", "actually" (usually unnecessary)
+- Avoid jargon without explanation on first use
+- Avoid "very", "really", "actually" (replace with specific measurements)
 - Avoid passive constructions when active is clearer
+- Avoid "game-changing", "revolutionary", "best-in-class" (prove it with specs instead)
 - Avoid "click here" or "read more" (use descriptive links)
-- [Add other words/phrases to avoid]
+- Avoid "utilize" (use "use")
+- Avoid "facilitate" (use "enable" or "support")
 
 ### Inclusive Language
 - Use gender-neutral language ("they" instead of "he/she")
@@ -310,26 +326,31 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 
 ## Brand-Specific Guidelines
 
-### Castos Product References
+### DOMI Sensor Product References
 
-**Castos Platform**:
-- "Castos" (not "the Castos platform" unless needed for clarity)
-- "Castos analytics dashboard"
-- [Add other product-specific terms]
+**Company Name**:
+- "DOMI" for casual reference
+- "DOMI Sensor" for formal or first mention
+- Never "Domi" (incorrect capitalization)
 
-**Features**:
-- [List how to refer to specific features]
-- [Capitalization conventions for features]
+**Product Families**:
+- "ToF Camera Module" (category, capitalize)
+- "DMAS2M001 dToF Array Module" (product-specific, use full model number)
+- "DMP300KP VCSEL" (model number + category)
+- "DM0301 1D ToF Sensor" (always include "1D" for clarity vs. 3D sensors)
+
+**Features / Capabilities**:
+- "100k lux ambient light immunity" (spec is a feature)
+- "Pin-to-pin compatible" (not "drop-in replacement" — that's marketing, not engineering)
+- "Vertically integrated" (chip design through module manufacturing)
+- "50+ R&D specialists" (not "50 engineers")
 
 ### Competitor References
-- [ ] Name competitors directly when relevant
-- [ ] Use generic terms ("other podcast hosts")
-- **Decision**: [Choose approach]
-
-**If Naming Competitors**:
-- Be fair and factual
-- No disparaging language
-- Focus on differentiation, not criticism
+- Name competitors directly when making factual comparisons
+- Use full official product names: "ST VL53L4CD" not "ST's sensor"
+- Be fair and factual — acknowledge where competitors excel
+- Focus on differentiation through specs, not criticism
+- When making comparison claims, ensure they're based on publicly available datasheet information
 
 ---
 
@@ -352,17 +373,18 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 ## Voice & Tone Reminders
 
 ### Core Voice Characteristics
-1. Professional yet approachable
-2. Educational and empowering
-3. Podcast creator advocate
-4. Technically accurate but accessible
-5. Results and growth-focused
+1. Technically authoritative (specs and data drive every claim)
+2. Precision-focused (numbers over adjectives)
+3. Engineer-empowering (practical, actionable, honest)
+4. Globally accessible (clear English, no region-specific idioms)
+5. Forward-looking but grounded (connect specs to real applications)
 
 ### Tone Variations
-- **How-to content**: Instructive, step-by-step, encouraging
-- **Strategic content**: Authoritative, experienced, actionable
-- **Industry news**: Insightful, analytical, forward-looking
-- **Product content**: Benefit-focused, clear, honest
+- **Technical product content**: Precise, specification-driven, comparative
+- **How-to / integration guides**: Practical, step-by-step, troubleshooting-aware
+- **Application / solution content**: Problem-solution, use-case-driven
+- **Industry insights**: Analytical, forward-looking, informed
+- **News / product announcements**: Direct, factual, professional but enthusiastic
 
 ---
 
@@ -410,10 +432,10 @@ Before publishing any content:
 ## Updates & Maintenance
 
 **Style Guide Version**: 1.0
-**Last Updated**: [Date]
-**Next Review**: [Date]
+**Last Updated**: May 2026
+**Next Review**: August 2026
 
-This style guide is a living document. Update as Castos brand and voice evolve.
+This style guide is a living document. Update as DOMI Sensor brand and voice evolve.
 
 **Questions or Additions?**
 If you encounter a style question not covered here, make a decision, document it, and add it to this guide for future reference.
