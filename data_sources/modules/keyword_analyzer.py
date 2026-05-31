@@ -102,7 +102,7 @@ class KeywordAnalyzer:
             'distribution_heatmap': heatmap,
             'lsi_keywords': lsi_keywords,
             'recommendations': self._generate_recommendations(
-                primary_analysis,
+                {'keyword': primary_keyword, **primary_analysis},
                 secondary_analysis,
                 stuffing_risk,
                 target_density
